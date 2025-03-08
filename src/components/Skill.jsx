@@ -23,7 +23,7 @@ export default function Skill() {
             </Col>
 
             {skills.map((skill, index) => (
-              <Col key={index} className="mt-4" xxl="5" xl="5" lg="5" md="12">
+              <Col key={index} className="mt-5" xxl="5" xl="5" lg="5" md="12">
                 <Card className="w-100 border-1 border-light">
                   <Card.Body>
                     <Card.Title className="fs-4">{skill.title}</Card.Title>

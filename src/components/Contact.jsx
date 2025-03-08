@@ -21,7 +21,7 @@ export default function Contact() {
               </div>
             </Col>
 
-            <Col className="mt-5" xxl="6" xl="6" lg="6" md="12">
+            <Col className="mt-3" xxl="6" xl="6" lg="6" md="12">
               <div className="mb-4 d-flex align-items-center">
                 <h5 className="mt-5 me-3 text-white-50">
                   If you have a project in mind, want to make things easier for
@@ -33,7 +33,7 @@ export default function Contact() {
 
             <Col xxl="2" xl="2" lg="2" md="12"></Col>
 
-            <Col className="mt-5 mb-3" xxl="4" xl="4" lg="4" md="12">
+            <Col className="mt-4 mb-3" xxl="4" xl="4" lg="4" md="12">
               <div className="border border-1 p-3 mb-2 d-flex flex-column align-items-start">
                 <h5 className="mb-4">Message me here</h5>
 
