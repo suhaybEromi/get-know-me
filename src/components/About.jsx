@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import cvPdf from "../assets/img/CV.pdf";
+import cvPdf from "../assets/img/CVV.pdf";
 
 export default function About() {
   return (
