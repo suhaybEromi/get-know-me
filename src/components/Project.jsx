@@ -1,8 +1,8 @@
 import { Col, Container, Row, Card, InputGroup } from "react-bootstrap";
-import cvImage from "../assets/img/cv.png";
+// import cvImage from "../assets/img/cv.png";
 import websiteImage from "../assets/img/website.png";
 import { Link } from "react-router-dom";
-import shopImage from "../assets/img/shop.png";
+// import shopImage from "../assets/img/shop.png";
 import managmentImage from "../assets/img/managment.png";
 import noteImage from "../assets/img/note.png";
 import weatherImage from "../assets/img/weather.png";
@@ -11,27 +11,20 @@ export default function Project() {
   const projects = [
     {
       id: 1,
-      name: "shop",
-      description: "Create project to buy clothes",
-      image: shopImage,
-      website: "https://node-complete-udemy-1043c6db969a.herokuapp.com",
-    },
-    {
-      id: 2,
       name: "managment",
       description: "Create management project",
       image: managmentImage,
       website: "https://project-managment-one.vercel.app",
     },
     {
-      id: 3,
+      id: 2,
       name: "note todo",
       description: "Create a Todo app",
       image: noteImage,
       website: "https://note---app.web.app",
     },
     {
-      id: 4,
+      id: 3,
       name: "weathere",
       description: "Create a weather app",
       image: weatherImage,

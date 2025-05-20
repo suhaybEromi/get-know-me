@@ -6,7 +6,7 @@ const skills = [
   { title: "Databases", items: ["MongoDB", "MySQL", "GraphQL"] },
   { title: "ORM / ODM", items: ["Sequelize", "Mongoose"] },
   { title: "Tools", items: ["Git & GitHub", "Postman & VS Code", "Windows"] },
-  { title: "Graphic Design", items: ["Figma"] },
+  { title: "Graphic Design", items: ["Figma", "Canva"] },
 ];
 
 export default function Skill() {

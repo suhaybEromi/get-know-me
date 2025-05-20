@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaFacebook,
+  FaInstagram,
 } from "react-icons/fa";
 
 export default function Contact() {
@@ -95,6 +96,15 @@ export default function Contact() {
                 </Link>
 
                 <Link
+                  to="https://www.instagram.com/code_with_romi"
+                  className="text-decoration-none instagram-color"
+                >
+                  <h3 className="text-white-50">
+                    <FaInstagram />
+                  </h3>
+                </Link>
+
+                <Link
                   to="https://www.facebook.com/suhaib.mohammed.73594/"
                   className="text-white-50 text-decoration-none change-color"
                 >
@@ -135,6 +145,15 @@ export default function Contact() {
                 </Link>
 
                 <Link
+                  to="https://www.instagram.com/code_with_romi"
+                  className="text-decoration-none instagram-color"
+                >
+                  <h3 className="text-white-50">
+                    <FaInstagram />
+                  </h3>
+                </Link>
+
+                <Link
                   to="https://www.facebook.com/suhaib.mohammed.73594/"
                   className="text-white-50 text-decoration-none change-color"
                 >
@@ -149,6 +168,9 @@ export default function Contact() {
               {`
               .github-color:hover h3 {
                 color: white !important;
+              }
+              .instagram-color:hover h3 {
+                color: #E1306C !important;
               }
               .change-color:hover h3 {
                 color: #0a66c2 !important;
