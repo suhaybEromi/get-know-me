@@ -48,7 +48,7 @@ export default function Home() {
         </Container>
       </section>
 
- {/* Project Page */}
+      {/* Project Page */}
       <div>
         <Project />
       </div>
