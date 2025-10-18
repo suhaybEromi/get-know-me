@@ -1,32 +1,51 @@
 import { Col, Container, Row, Card, InputGroup } from "react-bootstrap";
-// import cvImage from "../assets/img/cv.png";
 import websiteImage from "../assets/img/website.png";
 import { Link } from "react-router-dom";
-// import shopImage from "../assets/img/shop.png";
 import managmentImage from "../assets/img/managment.png";
 import noteImage from "../assets/img/note.png";
 import weatherImage from "../assets/img/weather.png";
+import aiDesignImage from "../assets/img/ai-design.png";
+import portfolioImage from "../assets/img/portfolio.png";
 
 export default function Project() {
   const projects = [
     {
       id: 1,
-      name: "managment",
-      description: "Create management project",
+      name: "AI-Template-Design",
+      description:
+        "Modern AI-themed React & Tailwind template showcasing sleek layouts and components",
+      image: aiDesignImage,
+      website: "https://ai-template-site.vercel.app/",
+    },
+    {
+      id: 2,
+      name: "Portfolio",
+      description:
+        "Clean and responsive personal portfolio highlighting your projects and skills",
+      image: portfolioImage,
+      website: "https://suhayberomi.netlify.app",
+    },
+    {
+      id: 3,
+      name: "Management Project",
+      description:
+        "A React.js project to add and manage projects and tasks, allowing users to create, delete, and organize both projects and their tasks efficiently",
       image: managmentImage,
       website: "https://project-managment-one.vercel.app",
     },
     {
-      id: 2,
-      name: "note todo",
-      description: "Create a Todo app",
+      id: 4,
+      name: "Todo App",
+      description:
+        "A simple and interactive Todo application using vanilla JavaScript to add, complete, and delete tasks",
       image: noteImage,
       website: "https://note---app.web.app",
     },
     {
-      id: 3,
-      name: "weathere",
-      description: "Create a weather app",
+      id: 5,
+      name: "Weather App",
+      description:
+        "A lightweight weather application built with JavaScript that fetches and displays real-time weather information",
       image: weatherImage,
       website: "https://appweathere.netlify.app",
     },
